@@ -4,43 +4,82 @@
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>@ViewData["Title"] - ShopOnline</title>
+    <link rel="stylesheet" href="~/css/main.css" asp-append-version="true"/>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true"/>
     <link rel="stylesheet" href="~/ShopOnline.styles.css" asp-append-version="true"/>
 </head>
-<body>
-<header>
-    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-        <div class="container-fluid">
-            <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">ShopOnline</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+<body class="background-main" style="background-image: url('Image/pagebg.png');">
+<header style=" padding-top:14px; padding-bottom: 14px ">
+    <div class="d-flex padding-div justify-content-between">
+        <img src="Image/logo.png" alt=""/>
+        <div class="d-flex align-items-center">
+            <div class="d-flex " style="background: black; border-radius: 4px; padding: 4px 7px;" >
+                <div>
+                    <img src="Image/Icon/search.svg" alt="" class="p-1">
+                </div>
+                <input id="search-input" class="search-input" style="border: 0; background: black;color: white; font-size: 14px; max-width: 220px;" placeholder="Tìm kiếm"/>
+            </div>
+        </div>
+    </div>
+</header>
+<div>
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light  box-shadow mb-3" style="padding: 0">
+
+        <div class="container-fluid padding-div" style="background: black;">
             <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                 <ul class="navbar-nav flex-grow-1">
                     <li class="nav-item">
-                        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                        <a class="nav-link text-dark" style="color: white !important;" asp-area="" asp-controller="Home" asp-action="Index">HOME</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                        <a class="nav-link text-dark" style="color: white !important;" asp-area="" asp-controller="Home" >FORUMS</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" style="color: white !important;" asp-area="" asp-controller="Home" asp-action="Index">HÀ NỘI</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" style="color: white !important;" asp-area="" asp-controller="Home" >QUẢNG NINH</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" style="color: white !important;" asp-area="" asp-controller="Home" asp-action="Index">HẢI PHÒNG</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" style="color: white !important;" asp-area="" asp-controller="Home" >THÁI NGHUYÊN</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="navbar-collapse collapse flex justify-content-between">
+                <ul class="navbar-nav flex-grow-1" style="justify-content: flex-end;">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" style="color: white !important;" asp-area="" asp-controller="Home" asp-action="Index">Đăng nhập</a>
+                    </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" style="color: white !important;" asp-area="" asp-controller="Home" >Register</a>
+                </li>
                 </ul>
             </div>
         </div>
     </nav>
-</header>
+</div>
 <div class="container">
     <main role="main" class="pb-3">
         @RenderBody()
     </main>
 </div>
 
-<footer class="border-top footer text-muted">
-    <div class="container">
-        &copy; 2024 - ShopOnline - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+<footer style="background-image: url('Image/pagebg.png'); background-color: #191b1d; margin-top: 14px">
+    <div class="container" style="display: flex;padding: 59px 0; justify-content: space-between">
+        <div> <img src="Image/logo.png" alt=""/></div>
+        <div style="color: white">Nội dung 1</div>
+        <div style="color: white">Nội dung 2</div>
+        <div style="color: white">Nội dung 3</div>
+
+        <div></div>
     </div>
 </footer>
+<div style="background-color: black; height: 48px"></div>
+
 <script src="~/lib/jquery/dist/jquery.min.js"></script>
 <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 <script src="~/js/site.js" asp-append-version="true"></script>

@@ -1,0 +1,13 @@
+.background-main{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #212529;
+}
+
+.padding-div{
+    padding: 0 110px !important;
+}
+#search-input:focus,
+.search-input:focus {
+    outline: none;
+}
