@@ -5,6 +5,54 @@
       "PackagePath": "staticwebassets\\ShopOnline.bundle.scp.css"
     },
     {
+      "Id": "D:\\PasrtTime\\ShopOnline\\ShopOnline\\wwwroot\\Image\\111.jpg",
+      "PackagePath": "staticwebassets\\Image\\111.jpg"
+    },
+    {
+      "Id": "D:\\PasrtTime\\ShopOnline\\ShopOnline\\wwwroot\\Image\\Icon\\chat-left-text.svg",
+      "PackagePath": "staticwebassets\\Image\\Icon\\chat-left-text.svg"
+    },
+    {
+      "Id": "D:\\PasrtTime\\ShopOnline\\ShopOnline\\wwwroot\\Image\\Icon\\chat.svg",
+      "PackagePath": "staticwebassets\\Image\\Icon\\chat.svg"
+    },
+    {
+      "Id": "D:\\PasrtTime\\ShopOnline\\ShopOnline\\wwwroot\\Image\\Icon\\folder.svg",
+      "PackagePath": "staticwebassets\\Image\\Icon\\folder.svg"
+    },
+    {
+      "Id": "D:\\PasrtTime\\ShopOnline\\ShopOnline\\wwwroot\\Image\\Icon\\house.svg",
+      "PackagePath": "staticwebassets\\Image\\Icon\\house.svg"
+    },
+    {
+      "Id": "D:\\PasrtTime\\ShopOnline\\ShopOnline\\wwwroot\\Image\\Icon\\search.svg",
+      "PackagePath": "staticwebassets\\Image\\Icon\\search.svg"
+    },
+    {
+      "Id": "D:\\PasrtTime\\ShopOnline\\ShopOnline\\wwwroot\\Image\\favicon.ico",
+      "PackagePath": "staticwebassets\\Image\\favicon.ico"
+    },
+    {
+      "Id": "D:\\PasrtTime\\ShopOnline\\ShopOnline\\wwwroot\\Image\\imgdemo.jpg",
+      "PackagePath": "staticwebassets\\Image\\imgdemo.jpg"
+    },
+    {
+      "Id": "D:\\PasrtTime\\ShopOnline\\ShopOnline\\wwwroot\\Image\\logo.png",
+      "PackagePath": "staticwebassets\\Image\\logo.png"
+    },
+    {
+      "Id": "D:\\PasrtTime\\ShopOnline\\ShopOnline\\wwwroot\\Image\\pagebg.png",
+      "PackagePath": "staticwebassets\\Image\\pagebg.png"
+    },
+    {
+      "Id": "D:\\PasrtTime\\ShopOnline\\ShopOnline\\wwwroot\\Image\\welcome-banner.png",
+      "PackagePath": "staticwebassets\\Image\\welcome-banner.png"
+    },
+    {
+      "Id": "D:\\PasrtTime\\ShopOnline\\ShopOnline\\wwwroot\\css\\main.css",
+      "PackagePath": "staticwebassets\\css\\main.css"
+    },
+    {
       "Id": "D:\\PasrtTime\\ShopOnline\\ShopOnline\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
