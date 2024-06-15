@@ -1,0 +1,50 @@
+# JetBrains Rider
+.idea/
+*.sln.iml
+ 
+# Ignore compiled object files
+*.obj
+
+# Ignore compiled executable files
+*.exe
+
+# Ignore program database files
+*.pdb
+
+# Ignore user files
+*.user
+
+# Ignore application settings files
+*.aps
+
+# Ignore precompiled header files
+*.pch
+
+# Ignore Visual Studio project files
+*.vspscc
+
+# Ignore generated source files
+*_i.c
+*_p.c
+
+# Ignore Visual Studio intellisense database files
+*.ncb
+
+# Ignore Visual Studio solution user options files
+*.suo
+
+# Ignore type library files
+*.tlb
+*.tlh
+
+# Ignore backup files
+*.bak
+
+# Ignore cache files
+*.cache
+
+# Ignore incremental linker files
+*.ilk
+
+# Ignore log files
+*.log

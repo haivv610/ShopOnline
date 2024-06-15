@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\PasrtTime\\ShopOnline\\ShopOnline\\ShopOnline\\ShopOnline.csproj",
+      "projectUniqueName": "D:\\PasrtTime\\ShopOnline\\ShopOnline\\ShopOnline.csproj",
       "projectName": "ShopOnline",
-      "projectPath": "D:\\PasrtTime\\ShopOnline\\ShopOnline\\ShopOnline\\ShopOnline.csproj",
+      "projectPath": "D:\\PasrtTime\\ShopOnline\\ShopOnline\\ShopOnline.csproj",
       "packagesPath": "C:\\Users\\vuvan\\.nuget\\packages\\",
-      "outputPath": "D:\\PasrtTime\\ShopOnline\\ShopOnline\\ShopOnline\\obj\\",
+      "outputPath": "D:\\PasrtTime\\ShopOnline\\ShopOnline\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\vuvan\\AppData\\Roaming\\NuGet\\NuGet.Config",
