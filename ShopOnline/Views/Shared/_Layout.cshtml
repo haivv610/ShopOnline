@@ -10,58 +10,180 @@
     <link rel="stylesheet" href="~/ShopOnline.styles.css" asp-append-version="true"/>
 </head>
 <body class="background-main" style="background-image: url('Image/pagebg.png');">
-<header style=" padding-top:14px; padding-bottom: 14px ">
-    <div class="d-flex padding-div justify-content-between">
-        <img src="Image/logo.png" alt=""/>
-        <div class="d-flex align-items-center">
-            <div class="d-flex " style="background: black; border-radius: 4px; padding: 4px 7px;" >
-                <div>
-                    <img src="Image/Icon/search.svg" alt="" class="p-1">
+<header>
+    <div>
+        <div id="bannerWeb">
+            <div id="banner" style=" padding-top:14px; padding-bottom: 14px ">
+                <div class="d-flex padding-div justify-content-between">
+                    <img src="Image/logo.png" alt=""/>
+                    <div class="d-flex align-items-center">
+                        <div class="d-flex " style="background: black; border-radius: 4px; padding: 4px 7px;">
+                            <div>
+                                <img src="Image/Icon/search.svg" alt="" class="p-1">
+                            </div>
+                            <input id="search-input" class="search-input"
+                                   style="border: 0; background: black;color: white; font-size: 14px; max-width: 220px;"
+                                   placeholder="Tìm kiếm"/>
+                        </div>
+                    </div>
                 </div>
-                <input id="search-input" class="search-input" style="border: 0; background: black;color: white; font-size: 14px; max-width: 220px;" placeholder="Tìm kiếm"/>
             </div>
+        </div>
+        <div>
+            <nav id="menuWeb" class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light box-shadow mb-3" style="padding: 0">
+                <div style="background: black;width: 100%; height: 48px" id="header">
+                    <div class="padding-div" style="display: flex; width: 100%;">
+                        <button id="clickBack" class="nav-button" onclick="scrollMenu(-100)">
+                            <img src="Image/Icon/chevron-left.svg" alt=""/>
+                        </button>
+                        <div class="box-menu-one">
+                            <div style="width: 100%;">
+                                <ul class="navbar-nav flex-grow-1 menu" id="menu" style="overflow-x: hidden; white-space: nowrap;">
+                                    <li class="nav-item">
+                                        <a class="nav-link text-dark menu-item" style="color: white !important;" asp-area="" asp-controller="Home" asp-action="Index">HOME</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-dark menu-item" style="color: white !important;" asp-area="" asp-controller="Home">FORUMS</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-dark menu-item" style="color: white !important;" asp-area="" asp-controller="Home" asp-action="Index">HÀ NỘI</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-dark menu-item" style="color: white !important;" asp-area="" asp-controller="Home">QUẢNG NINH</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-dark menu-item" style="color: white !important;" asp-area="" asp-controller="Home" asp-action="Index">HẢI PHÒNG</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-dark menu-item" style="color: white !important;" asp-area="" asp-controller="Home">THÁI NGUYÊN</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-dark menu-item" style="color: white !important;" asp-area="" asp-controller="Home">THÁI NGUYÊN</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-dark menu-item" style="color: white !important;" asp-area="" asp-controller="Home">THÁI NGUYÊN</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-dark menu-item" style="color: white !important;" asp-area="" asp-controller="Home">THÁI NGUYÊN</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-dark menu-item" style="color: white !important;" asp-area="" asp-controller="Home">THÁI NGUYÊN</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-dark menu-item" style="color: white !important;" asp-area="" asp-controller="Home">THÁI NGUYÊN</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <button class="nav-button" onclick="scrollMenu(100)">
+                            <img src="Image/Icon/chevron-right.svg" alt=""/>
+                        </button>
+                        <div class="box-menu-two">
+                            <a class="nav-link text-dark menu-item login" style="color: white !important;" asp-area="" asp-controller="Home" asp-action="Index">Đăng nhập</a>
+                            <a class="nav-link text-dark menu-item register" style="color: white !important;" asp-area="" asp-controller="Home">Register</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div>
+            <nav id="nav2">
+                <div id="header2">
+                    <div class="navbar2">
+                        <ul>
+                            <li>
+                                <div id="clickMenu">
+                                    <span class="menu-icon">☰</span>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="Image/logo.png" alt="Logo">
+                            </li>
+                            <li class="spacer"></li>
+                            <li class="icon">
+                                <a href="#">
+                                    <img src="Image/Icon/key.svg" alt="Key">
+                                </a>
+                            </li>
+                            <li class="icon">
+                                <a href="#">
+                                    <img src="Image/Icon/Union.svg" alt="Clipboard">
+                                </a>
+                            </li>
+                            <li class="icon">
+                                <a href="#" id="search-icon">
+                                    <img src="Image/Icon/search.svg" alt="Search">
+                                </a>
+                            </li>
+                            <li class="icon" id="showContent">
+                                <a href="#">
+                                    <img src="Image/Icon/three-dots-vertical.svg" alt="More">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="search-bar" id="search-bar">
+                        <span class="close-search" id="close-search">✖</span>
+                        <input type="text" placeholder="Tìm kiếm...">
+                        <span class="settings-icon">
+                            <img src="Image/Icon/search.svg" alt="Settings">
+                        </span>
+                    </div>
+                </div>
+                <div id="menuMobile">
+                    <ul id="menuSelectMobile" class="navbar-nav flex-grow-1">
+                        <li class="nav-item" id="close-menu">
+                            <div
+                                style="display: flex;justify-content: space-between;line-height: 35px; align-items: center;">
+                                <div style="color: white">Menu</div>
+                                <div>
+                                    <img src="Image/Icon/x-lg.svg" alt="" style="cursor: pointer; height: 15px;"/>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" style="color: white !important;" asp-area="" asp-controller="Home"
+                               asp-action="Index">
+                                Home
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" style="color: white !important;" asp-area=""
+                               asp-controller="Home">
+                                Forums
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" style="color: white !important;" asp-area="" asp-controller="Home"
+                               asp-action="Index">
+                                Hà Nội
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" style="color: white !important;" asp-area=""
+                               asp-controller="Home">
+                                Quảng Ninh
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" style="color: white !important;" asp-area="" asp-controller="Home"
+                               asp-action="Index">
+                                Hải Phòng
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" style="color: white !important;" asp-area=""
+                               asp-controller="Home">
+                                Thái Nguyên
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
         </div>
     </div>
 </header>
-<div>
-    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light  box-shadow mb-3" style="padding: 0">
 
-        <div class="container-fluid padding-div" style="background: black;">
-            <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                <ul class="navbar-nav flex-grow-1">
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" style="color: white !important;" asp-area="" asp-controller="Home" asp-action="Index">HOME</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" style="color: white !important;" asp-area="" asp-controller="Home" >FORUMS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" style="color: white !important;" asp-area="" asp-controller="Home" asp-action="Index">HÀ NỘI</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" style="color: white !important;" asp-area="" asp-controller="Home" >QUẢNG NINH</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" style="color: white !important;" asp-area="" asp-controller="Home" asp-action="Index">HẢI PHÒNG</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" style="color: white !important;" asp-area="" asp-controller="Home" >THÁI NGHUYÊN</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="navbar-collapse collapse flex justify-content-between">
-                <ul class="navbar-nav flex-grow-1" style="justify-content: flex-end;">
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" style="color: white !important;" asp-area="" asp-controller="Home" asp-action="Index">Đăng nhập</a>
-                    </li>
-                <li class="nav-item">
-                    <a class="nav-link text-dark" style="color: white !important;" asp-area="" asp-controller="Home" >Register</a>
-                </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-</div>
 <div class="container">
     <main role="main" class="pb-3">
         @RenderBody()
@@ -70,12 +192,15 @@
 
 <footer style="background-image: url('Image/pagebg.png'); background-color: #191b1d; margin-top: 14px">
     <div class="container" style="display: flex;padding: 59px 0; justify-content: space-between">
-        <div> <img src="Image/logo.png" alt=""/></div>
-        <div style="color: white">Nội dung 1</div>
-        <div style="color: white">Nội dung 2</div>
-        <div style="color: white">Nội dung 3</div>
-
-        <div></div>
+        <div class="footer-mobile">
+            <div>
+                <img src="Image/logo.png" alt=""/>
+            </div>
+            <div style="color: white">Nội dung 1</div>
+            <div style="color: white">Nội dung 2</div>
+            <div style="color: white">Nội dung 3</div>
+            <div></div>
+        </div>
     </div>
 </footer>
 <div style="background-color: black; height: 48px"></div>
@@ -83,6 +208,7 @@
 <script src="~/lib/jquery/dist/jquery.min.js"></script>
 <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 <script src="~/js/site.js" asp-append-version="true"></script>
+<script src="js/showContent.js" asp-append-version="true"></script>
 @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
