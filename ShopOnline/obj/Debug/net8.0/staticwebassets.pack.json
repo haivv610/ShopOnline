@@ -9,12 +9,24 @@
       "PackagePath": "staticwebassets\\Image\\111.jpg"
     },
     {
+      "Id": "D:\\PasrtTime\\ShopOnline\\ShopOnline\\wwwroot\\Image\\Icon\\Union.svg",
+      "PackagePath": "staticwebassets\\Image\\Icon\\Union.svg"
+    },
+    {
       "Id": "D:\\PasrtTime\\ShopOnline\\ShopOnline\\wwwroot\\Image\\Icon\\chat-left-text.svg",
       "PackagePath": "staticwebassets\\Image\\Icon\\chat-left-text.svg"
     },
     {
       "Id": "D:\\PasrtTime\\ShopOnline\\ShopOnline\\wwwroot\\Image\\Icon\\chat.svg",
       "PackagePath": "staticwebassets\\Image\\Icon\\chat.svg"
+    },
+    {
+      "Id": "D:\\PasrtTime\\ShopOnline\\ShopOnline\\wwwroot\\Image\\Icon\\chevron-left.svg",
+      "PackagePath": "staticwebassets\\Image\\Icon\\chevron-left.svg"
+    },
+    {
+      "Id": "D:\\PasrtTime\\ShopOnline\\ShopOnline\\wwwroot\\Image\\Icon\\chevron-right.svg",
+      "PackagePath": "staticwebassets\\Image\\Icon\\chevron-right.svg"
     },
     {
       "Id": "D:\\PasrtTime\\ShopOnline\\ShopOnline\\wwwroot\\Image\\Icon\\folder.svg",
@@ -25,8 +37,20 @@
       "PackagePath": "staticwebassets\\Image\\Icon\\house.svg"
     },
     {
+      "Id": "D:\\PasrtTime\\ShopOnline\\ShopOnline\\wwwroot\\Image\\Icon\\key.svg",
+      "PackagePath": "staticwebassets\\Image\\Icon\\key.svg"
+    },
+    {
       "Id": "D:\\PasrtTime\\ShopOnline\\ShopOnline\\wwwroot\\Image\\Icon\\search.svg",
       "PackagePath": "staticwebassets\\Image\\Icon\\search.svg"
+    },
+    {
+      "Id": "D:\\PasrtTime\\ShopOnline\\ShopOnline\\wwwroot\\Image\\Icon\\three-dots-vertical.svg",
+      "PackagePath": "staticwebassets\\Image\\Icon\\three-dots-vertical.svg"
+    },
+    {
+      "Id": "D:\\PasrtTime\\ShopOnline\\ShopOnline\\wwwroot\\Image\\Icon\\x-lg.svg",
+      "PackagePath": "staticwebassets\\Image\\Icon\\x-lg.svg"
     },
     {
       "Id": "D:\\PasrtTime\\ShopOnline\\ShopOnline\\wwwroot\\Image\\favicon.ico",
@@ -59,6 +83,10 @@
     {
       "Id": "D:\\PasrtTime\\ShopOnline\\ShopOnline\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\PasrtTime\\ShopOnline\\ShopOnline\\wwwroot\\js\\showContent.js",
+      "PackagePath": "staticwebassets\\js\\showContent.js"
     },
     {
       "Id": "D:\\PasrtTime\\ShopOnline\\ShopOnline\\wwwroot\\js\\site.js",
