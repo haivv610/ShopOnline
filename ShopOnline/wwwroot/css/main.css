@@ -34,6 +34,12 @@ header {
     justify-content: flex-end;
 }
 
+.footer-web{
+    display: flex;
+    padding: 59px 0;
+    justify-content: space-between;
+}
+
 /*-----------------*/
 
 .padding-div {
@@ -182,13 +188,19 @@ header {
 #clickBack{
     display: none;
 }
+.logo-mobile{
+    height: 100%;
+}
 /*-------responsive-------*/
 @media (max-width: 768px) {
+    .logo-mobile{
+        height: 50px;
+    }
     .footer-mobile{
-        display: flex;
-        padding: 59px 0; 
-        justify-content: space-between;
-        width: 100%;
+        display: flex !important;
+        padding: 59px 45px !important;
+        justify-content: space-between !important;
+        width: 100% !important;
     }
     .h1-convert {
         padding-left: 14px;
@@ -209,7 +221,7 @@ header {
     .container {
         max-width: 100% !important;
         margin: 0 !important;
-        padding: 0 !important;
+        padding: 0 ;
     }
 
     .box-two {

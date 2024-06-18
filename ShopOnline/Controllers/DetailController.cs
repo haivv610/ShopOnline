@@ -1,10 +1,9 @@
-using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using ShopOnline.Models;
 
 namespace ShopOnline.Controllers;
 
-public class HomeController : Controller
+public class DetailController : Controller
 {
     public IActionResult Index()
     {
