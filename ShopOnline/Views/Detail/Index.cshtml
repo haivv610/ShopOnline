@@ -1,0 +1,67 @@
+
+@model List<Product>
+@{
+    ViewBag.Title = "Detail";
+    Layout = "_Layout";
+}
+
+<div>
+    <div id="menuContentMobile">
+        <div style="margin-bottom: 14px">
+            <div style="color: white;">
+                <img src="Image/Icon/chat.svg" alt=""/>
+                Tiêu đề
+            </div>
+            <div>
+                @foreach (var item in Model)
+                {
+                <div class="box-two-box-arrange">
+                    <img alt="" src="@item.Imgage" class="box-two-item-image"/>
+                    <div class="box-two-content">
+                        <div class="box-two-item-title">@item.Title</div>
+                        <div class="box-two-item-content">@item.Content</div>
+                    </div>
+                </div>
+                }
+            </div>
+        </div>
+
+        <div style="margin-bottom: 14px">
+            <div style="color: white;">
+                <img src="Image/Icon/chat.svg" alt=""/>
+                Tiêu đề
+            </div>
+            <div>
+                @foreach (var item in Model)
+                {
+                <div class="box-two-box-arrange">
+                    <img alt="" src="@item.Imgage" class="box-two-item-image"/>
+                    <div class="box-two-content">
+                        <div class="box-two-item-title">@item.Title</div>
+                        <div class="box-two-item-content">@item.Content</div>
+                    </div>
+                </div>
+                }
+            </div>
+        </div>
+
+        <div style="margin-bottom: 14px">
+            <div style="color: white;">
+                <img src="Image/Icon/chat.svg" alt=""/>
+                Tiêu đề
+            </div>
+            <div>
+                @foreach (var item in Model)
+                {
+                <div class="box-two-box-arrange">
+                    <img alt="" src="@item.Imgage" class="box-two-item-image"/>
+                    <div class="box-two-content">
+                        <div class="box-two-item-title">@item.Title</div>
+                        <div class="box-two-item-content">@item.Content</div>
+                    </div>
+                </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>
