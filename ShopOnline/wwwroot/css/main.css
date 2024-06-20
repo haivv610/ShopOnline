@@ -40,6 +40,19 @@ header {
     justify-content: space-between;
 }
 
+.box-item{
+    color: white;
+    background: #8BC34A;
+    height: 25px;
+    line-height: 25px;
+    margin-left: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+    border-radius: 2px;
+    display: inline-block;
+    margin-bottom: 7px;
+}
+
 /*-----------------*/
 
 .padding-div {

@@ -17,15 +17,17 @@
                         <div class="box-one-box-arrange">
                             @foreach (var item in Model)
                             {
-                                <div>
-                                    <img src="@item.Imgage" alt="" class="box-one-item-image"/>
-                                    <div class="box-one-item-title">
-                                        @item.Title
+                                <a style="text-decoration: none;" asp-area="" asp-controller="Detail" asp-action="Index">
+                                    <div>
+                                        <img src="@item.Imgage" alt="" class="box-one-item-image"/>
+                                        <div class="box-one-item-title">
+                                            @item.Title
+                                        </div>
+                                        <div class="box-one-item-content">
+                                            @item.Content
+                                        </div>
                                     </div>
-                                    <div class="box-one-item-content">
-                                        @item.Content
-                                    </div>
-                                </div>
+                                </a>
                             }
                         </div>
                     </div>
@@ -39,13 +41,15 @@
                     <div>
                         @foreach (var item in Model)
                         {
-                            <div class="box-two-box-arrange">
-                                <img alt="" src="@item.Imgage" class="box-two-item-image"/>
-                                <div class="box-two-content">
-                                    <div class="box-two-item-title">@item.Title</div>
-                                    <div class="box-two-item-content">@item.Content</div>
+                            <a style="text-decoration: none;" asp-area="" asp-controller="Detail" asp-action="Index">
+                                <div class="box-two-box-arrange">
+                                    <img alt="" src="@item.Imgage" class="box-two-item-image"/>
+                                    <div class="box-two-content">
+                                        <div class="box-two-item-title">@item.Title</div>
+                                        <div class="box-two-item-content">@item.Content</div>
+                                    </div>
                                 </div>
-                            </div>
+                            </a>
                         }
                     </div>
                 </div>
@@ -63,6 +67,7 @@
                         <div class="box-one-box-arrange">
                             @foreach (var item in Model)
                             {
+                            <a style="text-decoration: none;" asp-area="" asp-controller="Detail" asp-action="Index">
                                 <div>
                                     <img src="@item.Imgage" alt="" class="box-one-item-image"/>
                                     <div class="box-one-item-title">
@@ -72,6 +77,7 @@
                                         @item.Content
                                     </div>
                                 </div>
+                            </a>
                             }
                         </div>
                     </div>
@@ -85,6 +91,7 @@
                     <div>
                         @foreach (var item in Model)
                         {
+                        <a style="text-decoration: none;" asp-area="" asp-controller="Detail" asp-action="Index">
                             <div class="box-two-box-arrange">
                                 <img alt="" src="@item.Imgage" class="box-two-item-image"/>
                                 <div class="box-two-content">
@@ -92,6 +99,7 @@
                                     <div class="box-two-item-content">@item.Content</div>
                                 </div>
                             </div>
+                        </a>
                         }
                     </div>
                 </div>
@@ -109,6 +117,7 @@
                         <div class="box-one-box-arrange">
                             @foreach (var item in Model)
                             {
+                            <a style="text-decoration: none;" asp-area="" asp-controller="Detail" asp-action="Index">
                                 <div>
                                     <img src="@item.Imgage" alt="" class="box-one-item-image"/>
                                     <div class="box-one-item-title">
@@ -118,6 +127,7 @@
                                         @item.Content
                                     </div>
                                 </div>
+                            </a>
                             }
                         </div>
                     </div>
@@ -131,6 +141,7 @@
                     <div>
                         @foreach (var item in Model)
                         {
+                        <a style="text-decoration: none;" asp-area="" asp-controller="Detail" asp-action="Index">
                             <div class="box-two-box-arrange">
                                 <img alt="" src="@item.Imgage" class="box-two-item-image"/>
                                 <div class="box-two-content">
@@ -138,13 +149,15 @@
                                     <div class="box-two-item-content">@item.Content</div>
                                 </div>
                             </div>
+                        </a>
                         }
                     </div>
                 </div>
             </div>
         </div>
+  
     </div>
-    
+
     <div id="menuContentMobile">
         <div style="margin-bottom: 14px">
             <div style="color: white;">
@@ -164,7 +177,7 @@
                 }
             </div>
         </div>
-        
+
         <div style="margin-bottom: 14px">
             <div style="color: white;">
                 <img src="Image/Icon/chat.svg" alt=""/>
@@ -183,7 +196,7 @@
                 }
             </div>
         </div>
-        
+
         <div style="margin-bottom: 14px">
             <div style="color: white;">
                 <img src="Image/Icon/chat.svg" alt=""/>
@@ -192,13 +205,13 @@
             <div>
                 @foreach (var item in Model)
                 {
-                <div class="box-two-box-arrange">
-                    <img alt="" src="@item.Imgage" class="box-two-item-image"/>
-                    <div class="box-two-content">
-                        <div class="box-two-item-title">@item.Title</div>
-                        <div class="box-two-item-content">@item.Content</div>
+                    <div class="box-two-box-arrange">
+                        <img alt="" src="@item.Imgage" class="box-two-item-image"/>
+                        <div class="box-two-content">
+                            <div class="box-two-item-title">@item.Title</div>
+                            <div class="box-two-item-content">@item.Content</div>
+                        </div>
                     </div>
-                </div>
                 }
             </div>
         </div>
