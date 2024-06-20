@@ -5,7 +5,7 @@ namespace ShopOnline.Controllers;
 
 public class DetailController : Controller
 {
-    public IActionResult Index()
+    public IActionResult Index(int id)
     {
         var listProduct = new List<Product>();
 
