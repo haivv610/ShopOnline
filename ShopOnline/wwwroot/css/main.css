@@ -52,7 +52,9 @@ header {
     display: inline-block;
     margin-bottom: 7px;
 }
-
+input[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
 /*-----------------*/
 
 .padding-div {
